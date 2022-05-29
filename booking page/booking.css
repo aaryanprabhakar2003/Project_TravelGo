@@ -1,0 +1,58 @@
+body{
+    background-image: url("background5.jpg");
+    background-size: cover;
+    margin: -5px 20% ;
+    
+
+}
+#container{
+    background-color: rgb(0, 0, 0,0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 5px;
+
+}
+#text1,#text2,#text3,#text4,#text5,#text6
+{
+    font-size: 25px;
+    font-family:cursive;
+    font-weight: bolder;
+    color:white ;
+    text-shadow: 5px 5px 5px black;
+}
+#from,#to,#checkin,#checkout,#persons{
+    border-radius: 10px;
+    padding: 5px;
+    background: transparent;
+    border-color:black;
+    width: 42%;
+
+}
+#text2,#to{
+    margin-left: 55%;
+    margin-top: -87px;
+}
+#text4,#checkout{
+    margin-left:55% ;
+    margin-top: -87px;
+}
+#text5{
+    margin-top: 50px;
+    margin-left: 25%;
+}
+#persons{
+    margin-left: 26%;
+}
+#text6{
+    border-radius: 15px;
+    background-color: lightsalmon;
+    border-width: 3px;
+    cursor: pointer;
+    margin-left: 20%;
+    margin-top: 70px;
+    padding: 15px;
+    border: none;
+}
+#heading{
+    margin: -10px 20%;
+}
